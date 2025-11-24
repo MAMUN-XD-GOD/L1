@@ -1,0 +1,8 @@
+{
+  "app_name": "Quantum Apex",
+  "version": "1.0.0-final",
+  "timezone": "Asia/Dhaka",
+  "default_asset": "EURUSD",
+  "local_bridge": true,
+  "log_level": "INFO"
+}
