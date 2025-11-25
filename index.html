@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>QuantumApex Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>QuantumApex — Live Dashboard</h1>
+    <div id="status">Status: <span id="conn">Disconnected</span></div>
+    <div class="panels">
+      <div class="panel" id="signals">
+        <h2>Signals</h2>
+        <ul id="signal_list"></ul>
+      </div>
+      <div class="panel" id="chart">
+        <h2>Mini Chart</h2>
+        <canvas id="chartCanvas" width="600" height="300"></canvas>
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
