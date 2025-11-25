@@ -1,6 +1,6 @@
-aiohttp
-websockets
-python-dateutil
-pytz
-ntplib
+fastapi
+uvicorn
+pydantic
+xgboost
 pandas
+numpy
